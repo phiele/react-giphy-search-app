@@ -16,7 +16,7 @@ function App() {
 
   useEffect(() => {
     // Search with options using promise
-    giphy('U6G1fywdmAmIcGeLhk6P06TZHbIVBm1x')
+    giphy(process.env.REACT_APP_GIPHY_API_KEY)
     .search({
       q: search,
       limit: 15
