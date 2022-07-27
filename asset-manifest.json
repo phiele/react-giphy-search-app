@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/react-giphy-search-app/static/css/main.f40d1255.css",
-    "main.js": "/react-giphy-search-app/static/js/main.c66a8866.js",
+    "main.css": "/react-giphy-search-app/static/css/main.68d4c80a.css",
+    "main.js": "/react-giphy-search-app/static/js/main.b30e80f8.js",
     "static/js/787.b085cccb.chunk.js": "/react-giphy-search-app/static/js/787.b085cccb.chunk.js",
     "index.html": "/react-giphy-search-app/index.html",
-    "main.f40d1255.css.map": "/react-giphy-search-app/static/css/main.f40d1255.css.map",
-    "main.c66a8866.js.map": "/react-giphy-search-app/static/js/main.c66a8866.js.map",
+    "main.68d4c80a.css.map": "/react-giphy-search-app/static/css/main.68d4c80a.css.map",
+    "main.b30e80f8.js.map": "/react-giphy-search-app/static/js/main.b30e80f8.js.map",
     "787.b085cccb.chunk.js.map": "/react-giphy-search-app/static/js/787.b085cccb.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f40d1255.css",
-    "static/js/main.c66a8866.js"
+    "static/css/main.68d4c80a.css",
+    "static/js/main.b30e80f8.js"
   ]
 }
