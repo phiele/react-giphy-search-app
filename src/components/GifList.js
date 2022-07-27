@@ -12,7 +12,7 @@ const GifList = (props) => {
       { gifList.map( gif => <Gif id={gif.id} setId={setId} title={gif.title} /> ) }
     </div>
     { (gifList.length === 0 && search === "") &&
-      <p className="gif-list-feedback">Search results will go here</p> }
+      <p className="gif-list-feedback">Search results will go here...</p> }
     { (gifList.length === 0 && search !== "") &&
       <p className="gif-list-feedback">No results found ¯\_(ツ)_/¯</p>}
     </>

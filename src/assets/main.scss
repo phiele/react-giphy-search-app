@@ -16,7 +16,7 @@ code {
     monospace;
 }
 
-#root > div {
+#root > .container {
   display: flex;
   height: 100vh;
 }
@@ -60,6 +60,13 @@ code {
       max-height: 80%;
       margin: auto;
     }
+  }
+
+  .giphy {
+    width: 150px;
+    position: absolute;
+    bottom: 0px;
+    left: -5px;
   }
 }
 

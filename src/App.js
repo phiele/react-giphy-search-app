@@ -1,11 +1,12 @@
 import { useState, useEffect } from "react";
 import giphy from "giphy-api";
+import giphyImg from "./assets/giphy_640px.png";
 import SearchBar from "./components/SearchBar.js";
 import GifList from "./components/GifList.js";
 import Gif from "./components/Gif.js";
 
 function App() {
-  const [id, setId] = useState('MeJgB3yMMwIaHmKD4z');
+  const [id, setId] = useState('xTiTnwgQ8Wjs1sUB4k');
   const [search, setSearch] = useState('');
   const [gifList, setGifList] = useState([]);
 
@@ -35,6 +36,7 @@ function App() {
         <div className="selected-gif">
           <Gif id={id} />
         </div>
+        <img className="giphy" src={giphyImg} alt="giphy"/>
       </div>
       <div className="right-scene">
         <GifList gifList={gifList} search={search} setId={setId} />
