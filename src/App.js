@@ -15,7 +15,7 @@ function App() {
     giphy(process.env.REACT_APP_GIPHY_API_KEY)
     .search({
       q: search,
-      limit: 15
+      limit: 25
     })
     .then(function (result) {
       // result contains gif data!
@@ -37,7 +37,7 @@ function App() {
         </div>
       </div>
       <div className="right-scene">
-        <GifList gifList={gifList} setId={setId} />
+        <GifList gifList={gifList} search={search} setId={setId} />
       </div>
     </div>
   );
