@@ -5,7 +5,7 @@ const SearchBar = (props) => {
 
   const handleSearchInput = (e) => {
     setSearch(e.target.value)
-    console.log(`searchbar: ${search}`)
+    // console.log(`searchbar: ${search}`)
   }
 
   // console.log('render SearchBar component')

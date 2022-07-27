@@ -11,22 +11,18 @@ function App() {
 
 
   useEffect(() => {
-    console.log(`App effect running with id: ${id}`)
-  }, [id])
-
-  useEffect(() => {
-    // Search with options using promise
+    // search with options using promise
     giphy(process.env.REACT_APP_GIPHY_API_KEY)
     .search({
       q: search,
       limit: 15
     })
-    .then(function (res) {
-      // Res contains gif data!
-      console.log(res.data)
-      setGifList(res.data)
+    .then(function (result) {
+      // result contains gif data!
+      console.log(result.data)
+      setGifList(result.data)
     });
-    // console.log(`search: ${search}`)
+    console.log(`search: ${search}`)
   }, [search]);
 
 

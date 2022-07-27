@@ -4,9 +4,12 @@ const Gif = (props) => {
   const {id, setId, title} = props
 
   const handleImgClick = (e) => {
-    console.log(e.target.src)
-    console.log(`id: ${id}`)
+    // set id to re-render selected gif
     setId(id);
+    console.log(`id: ${id}`)
+    // copy link to clipboard
+    navigator.clipboard.writeText(e.target.src)
+    console.log(`copied link: ${e.target.src}`)
   }
 
   const src = `https://i.giphy.com/media/${id}/giphy.gif`
