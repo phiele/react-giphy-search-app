@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/react-giphy-search-app/static/css/main.0a478da3.css",
-    "main.js": "/react-giphy-search-app/static/js/main.2e3f5937.js",
+    "main.js": "/react-giphy-search-app/static/js/main.ba81768a.js",
     "static/js/787.b085cccb.chunk.js": "/react-giphy-search-app/static/js/787.b085cccb.chunk.js",
     "index.html": "/react-giphy-search-app/index.html",
     "main.0a478da3.css.map": "/react-giphy-search-app/static/css/main.0a478da3.css.map",
-    "main.2e3f5937.js.map": "/react-giphy-search-app/static/js/main.2e3f5937.js.map",
+    "main.ba81768a.js.map": "/react-giphy-search-app/static/js/main.ba81768a.js.map",
     "787.b085cccb.chunk.js.map": "/react-giphy-search-app/static/js/787.b085cccb.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0a478da3.css",
-    "static/js/main.2e3f5937.js"
+    "static/js/main.ba81768a.js"
   ]
 }
