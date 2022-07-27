@@ -10,27 +10,27 @@ function App() {
   const [gifList, setGifList] = useState([]);
 
 
-  // useEffect(() => {
-  //   console.log(`App effect running with id: ${id}`)
-  // }, [id])
+  useEffect(() => {
+    console.log(`App effect running with id: ${id}`)
+  }, [id])
 
   useEffect(() => {
     // Search with options using promise
     giphy(process.env.REACT_APP_GIPHY_API_KEY)
     .search({
       q: search,
-      limit: 10
+      limit: 15
     })
-    .then((result) => {
+    .then(function (res) {
       // Res contains gif data!
-      console.log(result.data)
-      setGifList(result.data)
+      console.log(res.data)
+      setGifList(res.data)
     });
-    console.log(`search: ${search}`)
+    // console.log(`search: ${search}`)
   }, [search]);
 
 
-  console.log('render App component')
+  // console.log('render App component')
 
   return (
     <div className="container">

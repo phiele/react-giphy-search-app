@@ -4,7 +4,7 @@ import Gif from "./Gif.js";
 const GifList = (props) => {
   let {gifList, setId} = props;
 
-  console.log('render GifList component')
+  // console.log('render GifList component')
 
   return (
     <div className="gif-list">
