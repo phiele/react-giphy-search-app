@@ -6,12 +6,15 @@ const Gif = (props) => {
   const handleImgClick = (e) => {
     console.log(e.target.src)
     console.log(`id: ${id}`)
-    setId(id);
+    // set id
+    setId(id)
+    // copy link to clipboard
+    // navigator.clipboard.writeText(e.target.src)
   }
 
   const src = `https://i.giphy.com/media/${id}/giphy.gif`
 
-  // console.log('render Gif component')
+  console.log('render Gif component')
 
   return (
     <img className="gif" src={src} alt={title} onClick={handleImgClick}/>

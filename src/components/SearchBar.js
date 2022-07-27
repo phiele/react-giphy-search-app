@@ -8,7 +8,7 @@ const SearchBar = (props) => {
     console.log(`searchbar: ${search}`)
   }
 
-  // console.log('render SearchBar component')
+  console.log('render SearchBar component')
 
   return (
     <input className="form-search" type="text" value={search} onChange={handleSearchInput} placeholder="Search giphy"/>
